@@ -1,4 +1,4 @@
-# Sentiment-Analysis-using-Twitter-Data
+# Sentiment Analysis using Twitter Data
 
 ## Problem and Dataset 
 The primary objective of this project is to conduct sentiment analysis on Twitter data to discern the emotional tone of tweets. The dataset comprises 74,996 tweets initially, each with attributes including tweet ID, entity, sentiment, and tweet content. Sentiment categories analyzed are positive or negative, with "Neutral" and "Irrelevant" categories dropped. The dataset was pre-split into training and testing sets, with subsequent data cleaning steps including handling null values and encoding sentiment labels. After preprocessing, the dataset contains 43,506 entries, ready for model processing.
