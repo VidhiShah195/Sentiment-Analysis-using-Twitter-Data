@@ -12,7 +12,8 @@
 ## Deep Learning Models
 The study compared Long Short-Term Memory (LSTM) and Transformer models for sentiment analysis on Twitter data. 
 * LSTM is known for its sequential processing and memory cell usage, and captures long-term dependencies well, making it suitable for analyzing longer text sequences like tweets.
-* Transformers use attention mechanisms to excel at capturing nuanced relationships in short or long text sequences, making them effective for understanding the context and sentiment in tweets, including informal language and emojis. Overall, both models offer unique strengths for sentiment analysis tasks on Twitter data.
+* Transformers use attention mechanisms to excel at capturing nuanced relationships in short or long text sequences, making them effective for understanding the context and sentiment in tweets, including informal language and emojis.
+Overall, both models offer unique strengths for sentiment analysis tasks on Twitter data.
 
 ## Implementation
   The LSTM model is designed for binary sentiment classification. The embedding layer is employed to convert input sequences into dense vectors, mapping each word to a fixed-size vector space. The model comprises three LSTM layers, each with 50 units, facilitating the capture of sequential patterns in the data. To prevent overfitting, dropout layers with a rate of 0.2 are strategically placed after each LSTM layer. The final layer is a densely connected layer with a sigmoid activation function, enabling binary sentiment prediction. The Adam optimizer is chosen for efficient weight updates during training. The model is trained for five epochs, each epoch processing batches of 32 samples, with a binary cross entropy loss function used to evaluate the difference between predicted and actual sentiments. 
